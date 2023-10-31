@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import openai
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = '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'
 
 @app.route("/")
 def home():
